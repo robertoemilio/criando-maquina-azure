@@ -156,4 +156,7 @@ A criação e o gerenciamento de **Máquinas Virtuais no Azure** trazem eficiên
 - [Gerenciar custos no Azure](https://learn.microsoft.com/en-us/azure/cost-management-billing/)
 - [Introdução ao IIS](https://learn.microsoft.com/en-us/iis/get-started/)
 
+---
 
+📘 **Autor:** Roberto Emílio Mariano de Rezende  
+📅 **Ano:** 2025  

@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/roberto-rezende/azure-efficiency-scalability/main/assets/banner-cloud-infra.png" alt="Azure Cloud Infrastructure Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/roberto-rezende/criando-maquina-azure/main/assets/banner-cloud-infra.png" alt="Azure Cloud Infrastructure Banner" width="100%">
 </p>
 
 <h1 align="center">💡 Melhorando a Eficiência e Escalabilidade com Máquinas Virtuais do Azure</h1>

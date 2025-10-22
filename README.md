@@ -95,3 +95,65 @@ Após a criação:
 1. Vá até sua VM e clique em **Conectar > RDP**  
 2. Baixe o arquivo `.rdp` e abra no seu computador.  
 3. Use as credenciais definidas anteriormente:
+4. Aceite o certificado, se solicitado.
+
+> 💡 **Dica:** Usuários de Mac podem usar o [Cliente RDP da Mac App Store](https://apps.apple.com/br/app/microsoft-remote-desktop/id1295203466).
+
+---
+
+## 🌐 Instalando o Servidor Web IIS
+
+Depois de conectado à VM via RDP, abra o **PowerShell** e execute:
+
+powershell
+
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+
+http://<endereço_IP_da_VM>
+
+---
+
+## 🧹 Limpando os Recursos e Gerenciando Custos
+
+Se não precisar mais da **máquina virtual (VM)**:
+
+1. Vá até o **Grupo de Recursos** da VM.  
+2. Clique em **Excluir grupo de recursos**.  
+3. Confirme a exclusão para liberar os recursos e evitar cobranças.  
+
+---
+
+### 💤 Habilitar Desligamento Automático
+
+1. Vá até sua **VM** → **Operações > Desligamento Automático**  
+2. Ative a opção e **defina o horário desejado**  
+3. Clique em **Salvar**
+
+---
+
+🔒 **Dica:** Isso evita custos desnecessários e melhora a **eficiência operacional**.
+
+---
+
+## 🚀 Como Isso Melhora Eficiência e Escalabilidade
+
+A criação e o gerenciamento de **Máquinas Virtuais no Azure** trazem eficiência operacional e escalabilidade sob demanda, pois:
+
+- ✅ **Escalabilidade:** você pode aumentar ou reduzir recursos (CPU, RAM, armazenamento) conforme a necessidade.  
+- ⚡ **Eficiência:** recursos são alocados apenas quando necessários, reduzindo desperdícios.  
+- 💰 **Otimização de custos:** você paga apenas pelo uso (modelo baseado em consumo).  
+- 🧠 **Automação:** o Azure permite automação de deploys, backups e monitoramento.  
+- 🌍 **Disponibilidade global:** com datacenters distribuídos, é possível implantar VMs próximas dos usuários finais.  
+
+📘 **Exemplo prático:** Um servidor web em **IIS** pode ser replicado em múltiplas regiões do Azure e integrado a um **balanceador de carga**, garantindo alto desempenho e tolerância a falhas.
+
+---
+
+📚 **Referências**
+
+- [Documentação oficial do Azure Virtual Machines](https://learn.microsoft.com/en-us/azure/virtual-machines/)
+- [Criar rapidamente uma VM Windows no Azure Portal](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
+- [Gerenciar custos no Azure](https://learn.microsoft.com/en-us/azure/cost-management-billing/)
+- [Introdução ao IIS](https://learn.microsoft.com/en-us/iis/get-started/)
+
+
